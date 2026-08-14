@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Hardware | PC Fran</title>
+
+    <meta name="description"
+        content="Portafolio técnico de hardware, presupuestos y mantenimiento de PC. Proyecto de 5to año.">
+
+    <meta name="keywords" content="hardware, armado de pc, intel, asus, mantenimiento, arduino, informática">
+
+    <meta name="author" content="Fran Rosales Maffrand">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+
+<body>
+    <div id="cursor-follower"></div>
+    <button id="btn-tema" class="interruptor-tema" title="Cambiar tema">☽</button>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#componentes">Hardware</a></li>
+            <li><a href="#perifericos">Periféricos</a></li>
+            <li><a href="#presupuestos">Presupuestos</a></li>
+            <li><a href="#mantenimiento">Mantenimiento</a></li>
+            <li><a href="#arduino">Arduino e IoT</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h1>Bitácora de Laboratorio 2026</h1>
+            <p>Alumno: Rosales Francisco - 5to Año</p>
+        </section>
+
+        <section id="componentes">
+            <h2>Diagnóstico de Componentes (PC Fran)</h2>
+            <a href="https://docs.google.com/document/d/1Ulgd3N1kJTSBfUufhwAeaqiH-3yCjxzQcR2S54E3nD0/edit?tab=t.0#heading=h.wl8wgpqr6pul"
+                target="_blank">Ver
+                Ficha Técnica Completa</a>
+
+            <div class="galeria-grid">
+                <div class="tarjeta">
+                    <a href="Informe.pdf" target="_blank">
+                        <img src="images/mother.jpg" alt="Placa Madre ASUS STRIX B560-A">
+                        <h3>Placa Madre</h3>
+                    </a>
+                    <p>Modelo: B450 AORUS M</p>
+                    <button id="btn-diagnostico" class="boton-accion">Ver Layout del Manual</button>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="procesador.pdf" target="_blank">
+                        <img src="images/CPU.jpg" alt="Procesador Intel Core i5">
+                        <h3>Microprocesador</h3>
+                    </a>
+                    <p>Modelo: AMD Ryzen 5 5600GT 3.6GHz Socket AM4 Processor</p>
+                    <p>Arquitectura: 64 bits, x64</p>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="Informe_RAM.pdf" target="_blank">
+                        <img src="images/RAM.jpg" alt="Memoria RAM">
+                        <h3>Memoria RAM</h3>
+                    </a>
+                    <p>Kingston FURY Beast DDR4</p>
+                    <p>Capacidad: 16.0 GB instalada (15.8 GB utilizable)</p>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="Informe_GPU.pdf" target="_blank">
+                        <img src="images/GPU.jpg" alt="Tarjeta Gráfica (GPU)">
+                        <h3>Tarjeta Gráfica</h3>
+                    </a>
+                    <p>Sapphire PULSE AMD Radeon RX 6400</p>
+                    <p>Arquitectura RDNA 2 de AMD</p>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="Informe_PSU.pdf" target="_blank">
+                        <img src="images/PSU.jpg" alt="Fuente de Alimentación (CPU)">
+                        <h3>Fuente de Alimentación</h3>
+                    </a>
+                    <p>EVGA 850 B5</p>
+                    <p>850 W de Potencia</p>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="Informe_PSU.pdf" target="_blank">
+                        <img src="images/gabinete.jpg" alt="Gabinete">
+                        <h3>Gabinete</h3>
+                    </a>
+                    <p>Gamdias Argus E2 Elite</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="perifericos">
+            <h2>Periféricos y Dispositivos E/S</h2>
+            <p>Interfaces físicas de comunicación con el usuario.</p>
+
+            <div class="galeria-grid">
+                <div class="tarjeta">
+                    <a href="Informe_Perifericos.pdf" target="_blank">
+                        <img src="images/monitor.jpg" alt="Monitor">
+                        <h3>Monitor Noblex (Salida)</h3>
+                    </a>
+                    <p>Modelo: NXSM2700</p>
+                    <p>Resolución: 1920x1080 px (Full HD) a 100Hz</p>
+                    <p>Conectividad: USB / VGA</p>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="Informe_Perifericos.pdf" target="_blank">
+                        <img src="images/teclado_mouse.jpg" alt="Kit Teclado y Mouse">
+                        <h3>Teclado y Mouse Thermaltake (Entrada)</h3>
+                    </a>
+                    <p>Modelo: Challenger Elite RGB Combo</p>
+                    <p>Conectividad: USB</p>
+                </div>
+
+                <div class="tarjeta">
+                    <a href="Informe_Perifericos.pdf" target="_blank">
+                        <img src="images/auriculares.jpg" alt="Auriculares inalámbricos">
+                        <h3>Auriculares Soul (Salida/Entrada)</h3>
+                    </a>
+                    <p>Modelo: BT350</p>
+                    <p>Conectividad: Receptor USB-C / Bluetooth</p>
+                </div>
+            </div>
+
+            <div
+                style="text-align: center; margin-top: 40px; padding: 25px; background-color: #4379be; border-radius: 8px;">
+                <h3>Base de Datos de Conocimiento</h3>
+                <p>Acceso al informe técnico sobre funcionamiento de componentes, arquitectura de buses y resolución de
+                    cuellos de botella (Bottlenecks).</p>
+                <br>
+                <a href="LINK_A_TU_GOOGLE_DOC_TEORICO" target="_blank" class="boton-accion"
+                    style="text-decoration: none;">
+                    Leer Informe Completo de Arquitectura
+                </a>
+            </div>
+        </section>
+
+
+        <section id="presupuestos">
+            <h2>Armado de Equipos (Presupuestos)</h2>
+            <p>Documentación técnica de presupuestos redactada bajo normas APA.</p>
+
+            <div class="galeria-grid">
+
+                <div class="tarjeta">
+                    <h3>PC Gaming (Presupuesto Libre)</h3>
+                    <p>Enfoque en máximo rendimiento gráfico y sistemas de refrigeración avanzados.</p>
+                    <a href="https://docs.google.com/document/d/11rkaxpsS0NsOCFwaJyuht3IWRdNZPQQc/edit" target="_blank" class="boton-accion">Ver Informe APA</a>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>PC Oficina (Presupuesto Limitado)</h3>
+                    <p>Enfoque en ofimática, durabilidad y mejor relación costo-beneficio.</p>
+                    <a href="https://docs.google.com/document/d/11rkaxpsS0NsOCFwaJyuht3IWRdNZPQQc/edit" target="_blank" class="boton-accion">Ver Informe APA</a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="mantenimiento">
+            <h2>Laboratorio: Diagnóstico y Mantenimiento</h2>
+            <p>Documentación técnica de los procedimientos realizados en el entorno de pruebas.</p>
+
+            <div class="galeria-grid">
+                <div class="tarjeta">
+                    <h3>Ficha Práctica de Hardware</h3>
+                    <p>Reconocimiento visual e inspección de componentes internos en equipos de descarte.</p>
+                    <a href="LINK_A_LA_FICHA_PRACTICA" target="_blank" class="boton-accion">Ver Ficha Completada</a>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Manual del Técnico</h3>
+                    <p>Protocolos de diagnóstico, desarme, uso del multímetro y recuperación de datos (Dongle).</p>
+                    <a href="LINK_AL_MANUAL_UNIFICADO" target="_blank" class="boton-accion">Leer Manual de
+                        Protocolos</a>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="soldadura.jpeg" alt="Práctica de soldadura de componentes electrónicos">
+                    <h3>Soldadura y Recuperación</h3>
+                    <p>Prácticas de desoldadura de componentes y reparación de pistas en placas base averiadas.</p>
+                    <a href="https://docs.google.com/document/d/1dvr83vMDJ8wkhUmU8mRhUT8FIqlqlVPD/edit" target="_blank" class="boton-accion">Leer Informe Soldadura</a>
+                </div>
+            </div>
+
+            <div class="caja-destacada">
+                <h3>Base de Datos de Conocimiento (Teoría)</h3>
+                <p>Acceso al informe técnico completo sobre funcionamiento interno, arquitectura de componentes y
+                    resolución de cuellos de botella.</p>
+                <br>
+                <a href="LINK_AL_PDF_TEORICO" target="_blank" class="boton-accion" style="text-decoration: none;">
+                    Descargar/Ver PDF Teórico Completo
+                </a>
+            </div>
+        </section>
+         <section id="arduino">
+            <h2>Proyectos en ESP 32</h2>
+            <p>Proyectos de práctica de conexiones electricas con placa ESP32</p>
+
+            <div class="galeria-grid">
+                <div class="tarjeta">
+                    <img src="tp1fisi.jpg">
+                    <h3>Proyecto N°1: ON/OFF con botón</h3>
+                    <p>Circuito diseñado para alternar el estado de un LED entre encendido y apagado.</p>
+                    <p></p>
+                    <a href="https://wokwi.com/projects/470456064201210881" target="_blank" class="boton-accion">Ver en Wokwi</a>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="tp2fi.jpg">
+                    <h3>Proyecto N°2: Regular LED con potenciometro</h3>
+                    <p>Circuito diseñado para regular el brillo y potencia de un LED mediante el uso de un potenciometro</p>
+                    <p></p>
+                    <a href="https://wokwi.com/projects/470909512453042177" target="_blank" class="boton-accion">Ver en Wokwi</a>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="tp3fi.jpg">
+                    <h3>Proyecto N°3: Servomotor</h3>
+                    <p>Circuito en el que podemos mover a determinado ángulo el motor mediante pulsos eléctricos.</p>
+                    <p></p>
+                    <a href="https://wokwi.com/projects/471074374110071809" target="_blank" class="boton-accion">Ver en Wokwi</a>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="tp4fi.jpg">
+                    <h3>Proyecto N°4: Fotosensor</h3>
+                    <p>Circuito diseñado para poner en funcionamiento un servomotor dependiendo del nivel de luz recibido por el fotosensor.</p>
+                    <p></p>
+                    <a href="https://wokwi.com/projects/471536400366384129" target="_blank" class="boton-accion">Ver en Wokwi</a>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="tp5fi.jpg">
+                    <h3>Proyecto N°5: Pantalla LCD</h3>
+                    <p>Con este proyecto podemos representar datos sin la necesidad de la computadora.</p>
+                    <p></p>
+                    <a href="https://wokwi.com/projects/471706146952698881" target="_blank" class="boton-accion">Ver en Wokwi</a>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="">
+                    <h3>Proyecto N°6: Relé</h3>
+                    <p>Circuito en el que, gracias a la inclusión de un relé, podemos conectar dispositivos funciales con 220 V sin quemar la placa. </p>
+                    <p></p>
+                    <a href="https://wokwi.com/projects/471710671154149377" target="_blank" class="boton-accion">Ver en Wokwi</a>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="tp7fisi.jpg">
+                    <h3>Proyecto N°7: Teclado Matricial</h3>
+                    <p>"Candado" que se desbloquea ingresando en el teclado la clave preconfigurada en el código. </p>
+                    <p></p>
+                    <a href="https://wokwi.com/projects/471714546321379329" target="_blank" class="boton-accion">Ver en Wokwi</a>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="tp8fi.jpg">
+                    <h3>Proyecto N°8: Servidor IoT</h3>
+                    <p>Miniservidor funcional que registra la IP del usuario que ingresa y grafica en pantalla la temperatura actual y los segundos sucedidos desde que se inició.</p>
+                    <p></p>
+                    <a href="https://wokwi.com/projects/472164398636914689" target="_blank" class="boton-accion">Ver en Wokwi</a>
+                </div>
+            </div>
+
+       
+        </section>
+
+        <dialog id="modal-info">
+            <h3>Layout de Placa Madre AORUS</h3>
+            <img src="images/manual.jpg" alt="Esquema del manual de ASUS B560" style="width: 100%; height: auto;">
+            <p>El zócalo AM4 aloja el procesador AMD Ryzen 5 5600GT. Se observan las ranuras DIMM para los 16GB de
+                memoria RAM instalada.</p>
+            <button id="btn-cerrar" class="boton-accion">Cerrar Explicación</button>
+        </dialog>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2026 - Proyecto de Laboratorio de Hardware | 5to Año</p>
+        <p>Desarrollado con HTML, CSS y JS puro.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
