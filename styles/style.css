@@ -87,7 +87,7 @@ section {
 .galeria-grid {
     display: grid;
     /* Activa CSS Grid, la herramienta más potente para crear cuadrículas */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     /* Diseño responsivo: adapta columnas al ancho disponible */
     gap: 20px;
     /* Define un espacio exacto de 20 píxeles entre cada tarjeta */
@@ -108,12 +108,13 @@ section {
     /* Centra el texto y el botón dentro de la tarjeta */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     /* Genera una sombra para dar efecto de profundidad */
+
 }
 
 .tarjeta img {
     width: 100%;
     /* La imagen ocupará siempre el 100% del ancho disponible en su tarjeta */
-    height: 200px;
+    height: 300px;
     /* Fija una altura exacta para uniformidad */
     object-fit: cover;
     /* Evita que la foto se deforme al forzarle la altura */
